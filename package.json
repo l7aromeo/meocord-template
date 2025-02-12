@@ -1,0 +1,30 @@
+{
+  "name": "meocord-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:dev": "npx meocord build --dev",
+    "build:prod": "npx meocord build --prod",
+    "start:dev": "npx meocord start --dev",
+    "start:prod": "npx meocord start --prod",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "meocord": "^1.0.0-alpha.28"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.14.0",
+    "prettier": "^3.5.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "private": true,
+  "packageManager": "yarn@4.6.0"
+}
