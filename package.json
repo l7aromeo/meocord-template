@@ -4,15 +4,15 @@
   "description": "",
   "type": "commonjs",
   "scripts": {
-    "build:dev": "npx meocord build --dev",
-    "build:prod": "npx meocord build --prod",
-    "start:dev": "npx meocord start --dev",
-    "start:prod": "npx meocord start --prod",
+    "build:dev": "meocord build --dev",
+    "build:prod": "meocord build --prod",
+    "start:dev": "meocord start --dev",
+    "start:prod": "meocord start --prod",
     "lint": "eslint --fix"
   },
   "dependencies": {
     "discord.js": "^14.18.0",
-    "meocord": "^1.0.0-alpha.33"
+    "meocord": "^1.0.0-alpha.35"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.24.0",
