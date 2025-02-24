@@ -2,7 +2,7 @@
   "name": "meocord-template",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "build:dev": "meocord build --dev",
     "build:prod": "meocord build --prod",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "discord.js": "^14.18.0",
-    "meocord": "^1.0.0-alpha.46"
+    "meocord": "^1.0.0-alpha.47"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.24.1",

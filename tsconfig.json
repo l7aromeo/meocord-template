@@ -2,9 +2,9 @@
   "compilerOptions": {
     "tsBuildInfoFile": null,
     "strict": true,
-    "module": "NodeNext",
+    "module": "ESNext",
     "target": "ESNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "declaration": true,
     "emitDecoratorMetadata": true,
@@ -17,7 +17,7 @@
     "rootDir": "./src",
     "paths": {
       "@src/*": [
-        "src/*"
+        "./src/*"
       ]
     },
     "skipLibCheck": true,
