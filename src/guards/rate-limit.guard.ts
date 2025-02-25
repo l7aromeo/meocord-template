@@ -1,5 +1,5 @@
 import { Guard } from 'meocord/decorator'
-import { GuardInterface } from 'meocord/interface'
+import { type GuardInterface } from 'meocord/interface'
 import { BaseInteraction } from 'discord.js'
 import { Logger } from 'meocord/common'
 
