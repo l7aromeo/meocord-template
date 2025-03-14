@@ -2808,16 +2808,16 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.2.3"
     eslint-plugin-unused-imports: "npm:^4.1.4"
     globals: "npm:^16.0.0"
-    meocord: "npm:^1.0.2"
+    meocord: "npm:^1.0.3"
     prettier: "npm:^3.5.1"
     typescript: "npm:^5.7.3"
     typescript-eslint: "npm:^8.24.1"
   languageName: unknown
   linkType: soft
 
-"meocord@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "meocord@npm:1.0.2"
+"meocord@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "meocord@npm:1.0.3"
   dependencies:
     chalk: "npm:^5.4.1"
     cli-table3: "npm:^0.6.5"
@@ -2842,7 +2842,7 @@ __metadata:
     dotenv: ^16.4.7
   bin:
     meocord: ./dist/bin/meocord.js
-  checksum: 10c0/44af1d744859353cac35e7a92ec6ab0c214dce57a73eb01a86e87138b8fe2528782e11b6802e15a8bae0a76cc87ce0d7ca0935ebc1ecad80df6a3de0ef817e9d
+  checksum: 10c0/9986a5e6dde05950cbad75383c003569f5786c43d379638d0752f7bc40031f2b8d95aaa635be0cd0419788a9591727dd39aedfc3ce90d113c2b6bd84ace21bff
   languageName: node
   linkType: hard
 
