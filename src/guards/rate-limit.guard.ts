@@ -3,15 +3,26 @@ import { type GuardInterface } from 'meocord/interface'
 import { BaseInteraction } from 'discord.js'
 import { Logger } from 'meocord/common'
 
+class RateLimiterGuardOptions {
+  limit?: number
+  windowInSeconds?: number
+}
+
 @Guard()
 export class RateLimitGuard implements GuardInterface {
   // ==============================
   // NOTE: Consider using Redis or another distributed store for rate limits in production
   // ==============================
   private logger = new Logger(RateLimitGuard.name)
-  private readonly limit = 5
-  private readonly windowInSeconds = 60
+
   private rateLimits = new Map<string, number[]>()
+  private readonly limit: number
+  private readonly windowInSeconds: number
+
+  constructor(options: RateLimiterGuardOptions = {}) {
+    this.limit = options.limit || 5
+    this.windowInSeconds = options.windowInSeconds || 60
+  }
 
   async canActivate(interaction: BaseInteraction): Promise<boolean> {
     const userId = interaction.user.id

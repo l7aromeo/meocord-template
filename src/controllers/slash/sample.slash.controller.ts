@@ -10,4 +10,10 @@ export class SampleSlashController {
   async handleSampleSlash(interaction: ChatInputCommandInteraction) {
     await interaction.reply('This is sample reply of slash command.')
   }
+
+  @Command('sample-slash-2', SampleCommandBuilder)
+  @UseGuard({ provide: RateLimitGuard, params: { limit: 2, windowInSeconds: 60 } })
+  async handleSampleSlashTwo(interaction: ChatInputCommandInteraction) {
+    await interaction.reply('This is sample reply of slash command.')
+  }
 }
