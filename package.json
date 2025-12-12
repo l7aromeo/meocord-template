@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "discord.js": "^14.25.1",
-    "meocord": "^1.0.14"
+    "meocord": "^1.0.15"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.49.0",
