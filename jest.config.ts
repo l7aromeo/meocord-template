@@ -12,7 +12,7 @@ const config: Config = {
   coverageDirectory: '<rootDir>/coverage',
   coveragePathIgnorePatterns: ['/node_modules/', '<rootDir>/dist/'],
   transform: {
-    '^.+\\.tsx?$': [
+    '^.+\\.ts?$': [
       'ts-jest',
       {
         useESM: true,
