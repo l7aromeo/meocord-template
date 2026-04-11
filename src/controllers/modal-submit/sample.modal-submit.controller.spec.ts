@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleModalController } from './sample.modal-submit.controller.js'
+import { SampleModalController } from '@src/controllers/modal-submit/sample.modal-submit.controller.js'
 
 describe('SampleModalController', () => {
   let controller: SampleModalController

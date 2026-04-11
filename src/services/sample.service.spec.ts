@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleService } from './sample.service.js'
+import { SampleService } from '@src/services/sample.service.js'
 
 describe('SampleService', () => {
   let service: SampleService

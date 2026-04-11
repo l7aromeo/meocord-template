@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleContextMenuController } from './sample.context-menu.controller.js'
+import { SampleContextMenuController } from '@src/controllers/context-menu/sample.context-menu.controller.js'
 
 describe('SampleContextMenuController', () => {
   let controller: SampleContextMenuController

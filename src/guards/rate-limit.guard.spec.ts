@@ -1,4 +1,4 @@
-import { RateLimitGuard } from './rate-limit.guard.js'
+import { RateLimitGuard } from '@src/guards/rate-limit.guard.js'
 
 describe('RateLimitGuard', () => {
   let guard: RateLimitGuard

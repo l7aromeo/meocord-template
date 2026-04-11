@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleSelectMenuController } from './sample.select-menu.controller.js'
+import { SampleSelectMenuController } from '@src/controllers/select-menu/sample.select-menu.controller.js'
 
 describe('SampleSelectMenuController', () => {
   let controller: SampleSelectMenuController

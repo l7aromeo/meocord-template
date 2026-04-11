@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleButtonController } from './sample.button.controller.js'
+import { SampleButtonController } from '@src/controllers/button/sample.button.controller.js'
 
 describe('SampleButtonController', () => {
   let controller: SampleButtonController

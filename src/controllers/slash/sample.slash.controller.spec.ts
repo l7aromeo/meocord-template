@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleSlashController } from './sample.slash.controller.js'
+import { SampleSlashController } from '@src/controllers/slash/sample.slash.controller.js'
 
 describe('SampleSlashController', () => {
   let controller: SampleSlashController

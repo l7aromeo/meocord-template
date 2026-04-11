@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleReactionController } from './sample.reaction.controller.js'
+import { SampleReactionController } from '@src/controllers/reaction/sample.reaction.controller.js'
 
 describe('SampleReactionController', () => {
   let controller: SampleReactionController

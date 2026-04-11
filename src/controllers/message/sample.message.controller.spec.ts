@@ -1,5 +1,5 @@
 import { MeoCordTestingModule } from 'meocord/testing'
-import { SampleMessageController } from './sample.message.controller.js'
+import { SampleMessageController } from '@src/controllers/message/sample.message.controller.js'
 
 describe('SampleMessageController', () => {
   let controller: SampleMessageController
