@@ -1,4 +1,4 @@
-import { MeoCordConfig } from 'meocord/interface'
+import { type MeoCordConfig } from 'meocord/interface'
 
 export default {
   appName: 'MeoCord',

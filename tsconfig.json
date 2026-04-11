@@ -26,5 +26,5 @@
     "types": ["node"]
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["meocord.config.ts", "dist", "jest.config.ts", "node_modules"]
+  "exclude": ["meocord.config.ts", "dist", "jest.config.ts", "node_modules", "src/**/*.spec.ts"]
 }
