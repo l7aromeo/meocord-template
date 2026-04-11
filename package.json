@@ -8,7 +8,7 @@
     "build:prod": "meocord build --prod",
     "start:dev": "meocord start --dev",
     "start:prod": "meocord start --prod",
-    "lint": "eslint --fix && tsc --noEmit -p tsconfig.test.json",
+    "lint": "eslint --fix && tsc --noEmit && tsc --noEmit -p tsconfig.test.json",
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watch",
     "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage"
