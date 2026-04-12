@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "discord.js": "^14.26.2",
-    "meocord": "^1.6.0"
+    "meocord": "^1.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -27,7 +27,7 @@
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "globals": "^17.4.0",
+    "globals": "^17.5.0",
     "jest": "30.3.0",
     "prettier": "^3.8.2",
     "ts-jest": "^29.4.9",
